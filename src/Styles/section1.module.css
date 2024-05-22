@@ -1,0 +1,149 @@
+.form_container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.part1 {
+  margin-bottom: 1rem;
+}
+
+.part1, .part2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  /* text-align: center; */
+  margin: 0px;
+  color: #343a40;
+}
+
+p {
+  /* text-align: center; */
+  margin: 0px;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form_left, .form_right {
+  width: 45%;
+}
+
+.form_group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #495057;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.phone_input input {
+  padding-left: 50px !important;
+}
+
+.options label {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+.options input[type="radio"] {
+  margin-right: 5px;
+  transform: scale(1.5); /* Increase size of the radio buttons */
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.error {
+  color: #E8858D;
+  padding: 0.2rem;
+  background-color: #FFEBEB;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: 1px solid #E8858D;
+}
+
+.submit_button {
+  display: block;
+  width: 15%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 85%;
+}
+
+.submit_button:hover {
+  background-color: #218838;
+}
+
+
+.thank_you_message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  height: 300px;
+}
+
+.thank_you_message p b {
+  font-size: large;
+}
+
+.success_image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.close_button {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  background-color: #876EC8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close_button:hover {
+  background-color: #0056b3;
+}

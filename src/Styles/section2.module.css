@@ -1,0 +1,79 @@
+.feedback_table {
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.feedback_table th,
+.feedback_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.feedback_table th {
+  background-color: #f2f2f2;
+}
+
+/* .feedback_table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+/* .feedback_table tbody tr:hover {
+  background-color: #ddd;
+} */
+
+
+.table_header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.actions button:nth-child(3) {
+  height: auto;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #46A04B;
+}
+
+.actions button:nth-child(2) {
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete_button {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  background-color: #E64B87;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 85%;
+  margin-right: 5%;
+}
+
+.form_details {
+  color: #77A7E4;
+  cursor: pointer;
+}
